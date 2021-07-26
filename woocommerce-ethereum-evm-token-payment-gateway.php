@@ -2,10 +2,10 @@
 /*
  * Plugin Name: WooCommerce Ethereum EVM compatible Blockchain  ERC20-BEP20 Token Payment Gateway
  * Version: 0.0.1
- * Plugin URI: https:///
+ * Plugin URI: https://github.com/AlgoNetwork/Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway/
  * Description: Add Ethereum evm compatible token to your website.
- * Author: snail inc.
- * Author URI: http://www.snail.com/
+ * Author: jack.
+ * Author URI: https://github.com/AlgoNetwork/Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway/
  * License: GPLv2 or later
  * Requires at least: 4.7.0
  * Tested up to: 4.9.8
@@ -30,7 +30,7 @@ function add_link_to_plugin_meta($links_array, $plugin_file_name, $plugin_data, 
 	if (strpos($plugin_file_name, basename(__FILE__))) {
 		//  
 		// faq
-		$links_array[] = '<a href="https://github.com/woocommerce-ethereum-evm-token-payment-gateway-plugin/">FAQ</a>';
+		$links_array[] = '<a href="https://github.com/AlgoNetwork/Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway/">FAQ</a>';
 	}
 	return $links_array;
 }
@@ -188,7 +188,7 @@ function erc20_init_gateway_class() {
 				'icon' => array(
 					'title' => __('Payment icon', 'woocommerce-ethereum-evm-token-payment-gateway'),
 					'type' => 'text',
-					'default' => 'https://www.xxx.com/123.png',
+					'default' => 'https://github.com/AlgoNetwork/Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway/blob/main/assets/token.png',
 					'description' => __('Image Height:25px', 'woocommerce-ethereum-evm-token-payment-gateway'),
 				),
 				'target_address' => array(

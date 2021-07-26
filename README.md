@@ -18,8 +18,9 @@ This plugin help you add ERC20 and BEP20 or more EVM blockchain Token Payment Ga
 
 == Installation ==<br>
 1. donwload plugin<br>
-2. install plugin<br>
-3. settings some options:<br>
+https://github.com/AlgoNetwork/Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway/releases/download/0.0.1/woocommerce-ethereum-evm-token-payment-gateway.zip<br>
+3. install plugin<br>
+4. settings some options:<br>
  Open  WooCommerce  -   Settings  —  Payments.<br>
  enable **Pay with Token**<br>
  set Recieve Token Wallet Address、 Token ABI、Contact Address,blockChian ID.<br>

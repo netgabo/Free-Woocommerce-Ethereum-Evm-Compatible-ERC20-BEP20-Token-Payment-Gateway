@@ -24,3 +24,8 @@ https://github.com/AlgoNetwork/Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-T
  Open  WooCommerce  -   Settings  —  Payments.<br>
  enable **Pay with Token**<br>
  set Recieve Token Wallet Address、 Token ABI、Contact Address,blockChian ID.<br>
+ 
+you can use the token that already exist in the crypto currency market,or you can also use your own token.<br>
+
+if you want to set your own token as shop token,then you need generate your own token with one-click:<br>
+https://github.com/AlgoNetwork/TokenFactory

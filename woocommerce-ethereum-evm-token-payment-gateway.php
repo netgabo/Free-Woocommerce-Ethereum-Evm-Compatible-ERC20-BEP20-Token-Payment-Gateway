@@ -188,7 +188,7 @@ function erc20_init_gateway_class() {
 				'icon' => array(
 					'title' => __('Payment icon', 'woocommerce-ethereum-evm-token-payment-gateway'),
 					'type' => 'text',
-					'default' => 'https:///eb9ty.png',
+					'default' => 'https://www.xxx.com/123.png',
 					'description' => __('Image Height:25px', 'woocommerce-ethereum-evm-token-payment-gateway'),
 				),
 				'target_address' => array(

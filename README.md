@@ -9,7 +9,7 @@ There are very few such plug-ins on the Internet, and either they have to charge
 This plugin theoretically supports all Ethereum-compatible blockchains, including mainnet, binance chian, polygon, thunderCore, etc. <br>
 Support all the blockchains in this website:https://chainlist.org/
 <br><br>
-The plugin is free and does not charge any additional fees.<br><br>
+The plugin is free and does not charge any additional fees. all free.<br><br>
 
 <br>
 Tags: WooCommerce<br>

@@ -16,7 +16,7 @@ Tags: WooCommerce<br>
 Requires at least: 4.9.8<br>
 Tested up to: 5.5.2<br>
 Requires PHP: 7.0<br>
-Stable tag: 0.0.4<br>
+ 
 License: GPLv2<br>
 
 Woocommerce Ethereum Evm blockchain Compatible Token Payment Gateway<br>

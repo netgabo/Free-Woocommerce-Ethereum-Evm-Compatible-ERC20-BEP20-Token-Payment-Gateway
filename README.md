@@ -14,7 +14,7 @@ The plugin is free and does not charge any additional fees. all free.<br><br>
 <br>
 Tags: WooCommerce<br>
 Requires at least: 4.9.8<br>
-Tested up to: 5.5.2<br>
+Tested up to: 5.5<br>
 Requires PHP: 7.0<br>
  
 License: GPLv2<br>

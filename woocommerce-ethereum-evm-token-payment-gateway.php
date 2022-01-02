@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Token Payment Gateway for Ethereum EVM compatible Blockchain ERC20-BEP20 and WooCommerce
- * Version: 0.0.1
+ * Version: 0.0.2
  * Plugin URI: https://github.com/AlgoNetwork/Token-Payment-Gateway-for-Ethereum-EVM-compatible-Blockchain-ERC20-BEP20-and-WooCommerce
  * Description: Add Ethereum evm compatible token to your website.
  * Author: jack.

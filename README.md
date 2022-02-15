@@ -12,7 +12,7 @@ Support all the blockchains in this website:https://algonetwork.github.io/EVM-Bl
 The plugin is free and does not charge any additional fees. all free.<br><br>
 
 <br>
-Tags: WooCommerce<br>
+WooCommerce<br>
 Requires at least: 4.9.8<br>
 Tested up to: 5.5<br>
 Requires PHP: 7.0<br>

@@ -10,7 +10,8 @@ This plugin theoretically supports all Ethereum-compatible blockchains, includin
 Support all the blockchains in this website:https://algonetwork.github.io/EVM-Blockchain-Index/
 <br><br>
 The plugin is free and does not charge any additional fees. all free.<br><br>
-
+<br>
+Video Tutorial:https://www.youtube.com/watch?v=pH48RvylxmU
 <br>
 WooCommerce<br>
 Requires at least: 4.9.8<br>

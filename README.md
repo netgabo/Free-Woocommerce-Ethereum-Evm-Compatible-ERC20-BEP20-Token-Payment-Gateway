@@ -38,3 +38,9 @@ you can use the token that already exist in the crypto currency market,or you ca
 
 if you want to set your own token as shop token,then you need generate your own token with one-click:<br>
 https://github.com/AlgoNetwork/TokenFactory
+
+
+Update:
+1. v2.0.0 2022.02.27
+Add some new future
+fix bug.

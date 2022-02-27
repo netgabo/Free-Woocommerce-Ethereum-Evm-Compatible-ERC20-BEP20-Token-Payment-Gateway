@@ -27,7 +27,7 @@ This plugin help you add ERC20 and BEP20 or more EVM blockchain Token Payment Ga
 
 == Installation ==<br>
 1. donwload plugin<br>
-https://github.com/AlgoNetwork/Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway/releases/download/0.0.1/woocommerce-ethereum-evm-token-payment-gateway.zip<br>
+https://github.com/AlgoNetwork/Free-Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway/releases/download/2.0.0/woocommerce-ethereum-evm-token-payment-gateway.zip<br>
 3. install plugin<br>
 4. settings some options:<br>
  Open  WooCommerce  -   Settings  —  Payments.<br>

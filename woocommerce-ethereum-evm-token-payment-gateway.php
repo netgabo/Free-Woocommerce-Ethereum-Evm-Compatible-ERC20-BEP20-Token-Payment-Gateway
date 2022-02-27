@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Token Payment Gateway for Ethereum EVM compatible Blockchain ERC20-BEP20 and WooCommerce
- * Version: 0.0.2
+ * Version: 2.0.0
  * Plugin URI: https://github.com/AlgoNetwork/Token-Payment-Gateway-for-Ethereum-EVM-compatible-Blockchain-ERC20-BEP20-and-WooCommerce
  * Description: Add Ethereum evm compatible token to your website.
  * Author: jack.
@@ -193,9 +193,9 @@ function erc20_init_gateway_class() {
 					'default' => __('Please make sure you already install Metamask and enable it.', 'woocommerce-ethereum-evm-token-payment-gateway'),
 				),
 				'icon' => array(
-					'title' => __('Payment icon', 'woocommerce-ethereum-evm-token-payment-gateway'),
+					'title' => __('Payment Token icon', 'woocommerce-ethereum-evm-token-payment-gateway'),
 					'type' => 'text',
-					'default' => 'https://github.com/AlgoNetwork/Token-Payment-Gateway-for-Ethereum-EVM-compatible-Blockchain-ERC20-BEP20-and-WooCommerceblob/main/assets/token.png',
+					'default' => 'https://raw.githubusercontent.com/AlgoNetwork/Free-Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway/e005d6fdde727d40e413617c2610987af14d9279/assets/token.png',
 					'description' => __('Image Height:25px', 'woocommerce-ethereum-evm-token-payment-gateway'),
 				),
 				'target_address' => array(
@@ -223,12 +223,17 @@ function erc20_init_gateway_class() {
 				'BlockchainNetwork' => array(
 					'title' => __('Blockchain Network', 'woocommerce-ethereum-evm-token-payment-gateway'),
 					'type' => 'text',
-					'description' => __('Chain info:   https://chainlist.org/', 'woocommerce-ethereum-evm-token-payment-gateway'),
+					'description' => __('Blockchain Network ID,like 1,2,86..Get id from:https://algonetwork.github.io/EVM-Blockchain-Index/', 'woocommerce-ethereum-evm-token-payment-gateway'),
+				),
+				'BlockchainNetworkName' => array(
+					'title' => __('Blockchain Network', 'woocommerce-ethereum-evm-token-payment-gateway'),
+					'type' => 'text',
+					'description' => __('Blockchain Name,like:Ethereum,binance,or any other.', 'woocommerce-ethereum-evm-token-payment-gateway'),
 				),
 				'notice' => array(
 					'title' => __('Notice', 'woocommerce-ethereum-evm-token-payment-gateway'),
 					'type' => 'textarea',
-					'default' => __('You can buy tokens on this websit:www.b.com', 'woocommerce-ethereum-evm-token-payment-gateway'),
+					'default' => __('You can buy tokens on this website:www.b.com', 'woocommerce-ethereum-evm-token-payment-gateway'),
 					'description' => __('Notice', 'woocommerce-ethereum-evm-token-payment-gateway'),
 				),
 			);
@@ -237,7 +242,7 @@ function erc20_init_gateway_class() {
 				'ad1' => array(
 					'title' => 'Generate Token',
 					'type' => 'title',
-					'description' => 'Generate Token for you',
+					'description' => '<a href="https://algonetwork.github.io/TokenFactory/">Generate Token with One-click</a>',
 				),
 				'ad2' => array(
 					'title' => 'audit',
@@ -245,9 +250,9 @@ function erc20_init_gateway_class() {
 					'description' => 'audit',
 				),
 				'ad3' => array(
-					'title' => 'contact us',
+					'title' => 'Github',
 					'type' => 'title',
-					'description' => ' <a href="mailto:coincoin@gmail.com">contact us</a> ',
+					'description' => ' <a href="https://github.com/AlgoNetwork/Free-Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway">Contact</a> ',
 				),
 
 			);
@@ -330,11 +335,12 @@ function erc20_init_gateway_class() {
 				/**
 				 * show pay button if needs payment.
 				 */
-				echo '<script>var order_id = ' . $order_id . ';'. 'var BlockchainNetwork = "' . $this->BlockchainNetwork . '";'. 'var tokendecimals = "' . $this->tokenDecimals . '";' . 'var contract_address = "' . (string) $this->contract_address . '";var abiArray = ' . $this->abi_array . '; var target_address = "' . $this->target_address . '"; </script>';
+				echo '<script>var order_id = ' . $order_id . ';'. 'var BlockchainNetwork = "' . $this->BlockchainNetwork . '";'.'var BlockchainNetworkName = "' . $this->BlockchainNetworkName . '";'. 'var tokendecimals = "' . $this->tokenDecimals . '";' . 'var contract_address = "' . (string) $this->contract_address . '";var abiArray = ' . $this->abi_array . '; var target_address = "' . $this->target_address . '"; </script>';
 				echo __('<h2 class="h2thanks">Use Metamask Pay this Order</h2>', 'woocommerce-ethereum-evm-token-payment-gateway');
 				echo __('Click Button Below, Pay this order.<br>', 'woocommerce-ethereum-evm-token-payment-gateway');
+				echo '<div id="UserAccount" ></div><br>';
 				echo '<div id="NetworkName"  style="color:red;"></div><br>';
-				echo '<span style="margin:5px 0px;">' . 'We use this Blockchain Network:' .$this->BlockchainNetwork . "</span><br>";
+				echo '<span style="margin:5px 0px;">' . 'The blockchains we use is:' .$this->BlockchainNetworkName . "</span><br>";
 				echo '<span style="margin:5px 0px;">' . $this->notice . "</span><br>";
 				//echo '<span style="margin:5px 0px;">' . $this->tokenDecimals . "</span><br>";
 				echo '<div><button onclick="requestPayment(' . (string) $order->get_total() . ')">' . __('Open Metamask', 'woocommerce-ethereum-evm-token-payment-gateway') . '</button></div>';

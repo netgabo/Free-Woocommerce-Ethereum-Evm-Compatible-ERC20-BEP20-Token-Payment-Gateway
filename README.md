@@ -1,4 +1,4 @@
- Woocommerce Ethereum Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway<br>
+ Woocommerce Ethereum Evm Compatible ERC20 BEP20 Token-Payment-Gateway<br>
 
 # Free!<br>
 # No Fee!<br>
@@ -44,5 +44,5 @@ https://github.com/AlgoNetwork/TokenFactory
 
 Update:
 1. v2.0.0 2022.02.27<br>
-Add some new future<br>
-fix bug.<br>
+>Add some new future<br>
+>fix bug.<br>

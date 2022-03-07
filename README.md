@@ -6,7 +6,8 @@
 
 <img src="https://github.com/AlgoNetwork/Free-Woocommerce-Ethereum-Evm-Compatible-ERC20-BEP20-Token-Payment-Gateway/blob/main/screen.png" alt="ERC20-BEP20-Token-Payment">
 <br>
-Woocommerce Ethereum Evm Compatible ERC20-BEP20 Token Payment Gateway<br><br>
+
+Woocommerce Ethereum Evm Compatible ERC20-BEP20 Token Payment Gateway,Recieve ETH,BNB,Matic....in Woocommerce<br><br>
 There are very few such plug-ins on the Internet, and either they have to charge a handling fee or their functions have become invalid. It is difficult to increase the liquidity of the blockchain.<br><br>
 This plugin theoretically supports all Ethereum-compatible blockchains, including mainnet, binance chian, polygon, thunderCore, okex,etc. <br>
 Support all the blockchains in this website:https://algonetwork.github.io/EVM-Blockchain-Index/

@@ -12,7 +12,7 @@ There are very few such plug-ins on the Internet, and either they have to charge
 This plugin theoretically supports all Ethereum-compatible blockchains, including mainnet, binance chian, polygon, thunderCore, okex,etc. <br>
 Support all the blockchains in this website:https://algonetwork.github.io/EVM-Blockchain-Index/
 <br><br>
-The plugin is free and does not charge any additional fees. all free.<br><br>
+The plugin is free and does not charge any additional fees. all free. support all the EVM Chain<br><br>
 <br>
 Video Tutorial:https://www.youtube.com/watch?v=pH48RvylxmU
 <br>

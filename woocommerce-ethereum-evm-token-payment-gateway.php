@@ -345,6 +345,8 @@ function erc20_init_gateway_class() {
 				//echo '<span style="margin:5px 0px;">' . $this->tokenDecimals . "</span><br>";
 				echo '<div><button onclick="requestPayment(' . (string) $order->get_total() . ')">' . __('Open Metamask', 'woocommerce-ethereum-evm-token-payment-gateway') . '</button></div>';
 
+			}elseif ($order->needs_processing()) {
+				 echo __('<h2>Your order is being processed.</h2>', 'woocommerce-ethereum-evm-token-payment-gateway');
 			} else {
 				/**
 				 * 
